@@ -1,0 +1,118 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-family:Helvetica, sans-serif;
+  font-size: 1.75em;
+  text-align: center;
+  margin-block-start: 0.75em;
+  margin-block-end: 0.75em;
+}
+
+h2 {
+  font-family: helvetica, sans-serif;
+  font-size: 1.25em;
+  float: right;
+  border: 1px black solid;
+  margin-top: 0px;
+  margin-right:0px;
+  padding: 2px 30px 2px 30px;
+  margin-block-end: 0.5em;
+  position: relative;
+  bottom: 1px;
+  left: 1px;
+}
+
+p {
+  margin: 10px 10px 10px 10px;
+  font-family: Helvetica,sans-serif;
+  color: auto;
+  clear: right;
+}
+
+.MenuArea {
+  padding: 20px;
+}
+
+.MenuSection {
+  border: 1px black solid;
+  background-color: #f5f5fa;
+  margin-bottom: 20px;
+}
+
+#Chicken {
+  background-color: #ffc53d;
+}
+
+#Beef {
+  background-color: #fcd4d8;
+}
+
+#Sushi {
+  background-color: #e2b3fc;
+}
+
+
+/********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;  
+  }
+
+  .col-md-12 {
+    width: 100%;
+    float: left;
+    
+  }
+  
+  .MenuSection {
+    margin-bottom: 0px;
+  }
+  
+  #ChickenSection {
+    margin: 0px 10px 20px 0px;
+  }
+
+  #BeefSection {
+    margin: 0px 0px 20px 10px;
+  }
+
+  #SushiSection {
+    margin: 0px 0px 20px 0px;
+  }
+
+} 
+
+/********** Large devices **********/
+@media (min-width: 992px) {
+
+  .MenuArea {
+    padding: 20px 10px 0px 10px;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+
+  #ChickenSection {
+    margin: 0px 10px 20px 10px;
+  }
+
+  #BeefSection {
+    margin: 0px 10px 20px 10px;
+  }
+
+  #SushiSection {
+    margin: 0px 10px 20px 10px;
+  }
+}
